@@ -14,7 +14,7 @@ def piglatinize(s)
   arr.join(' ')
 end
 
-ef vowel(i)
+def vowel(i)
   i.downcase.start_with?(/[aeoui]/)
 end
 
