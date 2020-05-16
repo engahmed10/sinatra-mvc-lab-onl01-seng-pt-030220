@@ -14,12 +14,12 @@ def piglatinize(s)
   arr.join(' ')
 end
 
-end
-
-def vowel(i)
+ef vowel(i)
   i.downcase.start_with?(/[aeoui]/)
 end
 
 def consonant(i)
   i.downcase.start_with?(/[bcdfghjklmnpqrstvwxyz]/)
+end
+
 end
