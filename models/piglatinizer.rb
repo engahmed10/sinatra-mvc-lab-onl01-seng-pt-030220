@@ -10,7 +10,7 @@ def piglatinize(s)
      cons=i.slice(0..vowel_index-1)
      arr << (i[vowel_index..-1]+cons+"ay")
    end
-end
+  end
   arr.join(' ')
 end
 
